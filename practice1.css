@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+.imgBox{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid blue;
+    transform: translateY(-50%, -50%);
+    overflow: hidden;
+}
+.imgBox img{
+    height: 100%;
+    width: 100%;
+    transition: 10s;
+}
+.imgBox .textBox{
+    position: absolute;
+    Bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background: #bd9874;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 10s;
+}
+.imgBox .textBox p{
+    text-align: center;
+    color: green;
+    font-family: 'Charmonman', cursive;
+}
+.imgBox:hover .textBox{
+    bottom: -35%;
+}
+.imgBox:hover img{
+    transition: translateY(-35%);
+}
+
+.imgBox1{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    width: 250px;
+    height: 300px;
+    transition: 10s;
+    overflow: hidden;
+}
+.imgBox1 img{
+    width: 100%;
+    height: 100%;
+    transition: 10s;
+    transform: rotate(90deg);
+}
+
+.imgBox1 .textBox1{
+    position: absolute;
+    Bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background: orange;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: monospace;
+    transition: 10s; 
+}
+.imgBox1 .textBox1 p{
+    text-align: center;
+    color: firebrick;
+}
+.imgBox1:hover .textBox1{
+    bottom: -10%;
+}
+.imgBox1:hover img{
+    transition: translateY(-30%);
+}
+.imgBox2{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 0px;
+    left: 0px;
+    
+}
+
+
+
